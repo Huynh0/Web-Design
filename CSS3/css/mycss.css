@@ -1,0 +1,94 @@
+.picture{
+padding-top: 10px;
+width:50%;
+float:left;
+}
+.profile{
+float:left;
+line-height:5pt;
+width: 50%;
+}
+
+.parent{
+  overflow: hidden;
+}
+  a:hover{
+    color:blue;
+    background: lightgrey;
+    border: 1pt solid black;
+
+
+  }
+  a:visited{
+    color:red;
+  }
+
+.header{
+  border: 1px outset grey;
+  background-color:  #c2d6d6;
+  text-align: center;
+  color: black;
+}
+table, th, td{
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+table{
+  width:500pt;
+  height:160pt;
+
+}
+th{
+  text-align: left;
+}
+
+th, td{
+  padding-left: 10pt;
+}
+tbody:hover{
+  background-color:lightgrey;
+}
+li a.abc{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li.abc{
+  float:left;
+}
+.paragrapha{
+
+  float:left;
+  width:30%;
+}
+.paragraphb{
+
+  float:left;
+  width:40%;
+
+}
+.paragraphc{
+
+  float:left;
+  width:30%;
+}
+.table{
+  float:left;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .paragrapha, .paragraphb, .paragraphc{
+    width: 100%;
+  }
+}

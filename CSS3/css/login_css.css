@@ -1,0 +1,33 @@
+
+    .header{
+
+      background-color:  #c2d6d6;
+      text-align: center;
+      color: black;
+      height:50pt;
+      padding-top: 15pt;
+
+    }
+
+    .loginform{
+
+      border:2pt solid lightgrey;
+    }
+
+    button{
+      background-color: dodgerblue;
+      color:white;
+      text-align: center;
+      width:200pt;
+      border:none;
+      height:20pt;
+      }
+      button:hover{
+        opacity:0.5;
+      }
+
+    input[type=text], input[type=password]{
+      padding:5pt 10pt;
+      width:177pt;
+      margin:5pt 0pt;
+    }
